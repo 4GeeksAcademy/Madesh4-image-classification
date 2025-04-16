@@ -10,7 +10,7 @@ mkdir -p data/images/raw
 kaggle competitions download dogs-vs-cats -p data/images/raw
 
 # # Decompress the data
-# unzip data/raw/dogs-vs-cats.zip -d data/images/tmp
+unzip data/images/raw/dogs-vs-cats.zip -d data/images/tmp
 
 # # Decompress the training data
 # unzip data/raw/train.zip -d data/interim
