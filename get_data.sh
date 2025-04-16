@@ -27,7 +27,7 @@
 # # Move the training dogs and cats and the testing data
 #mv data/interim/train/dog.* data/processed/train/dog/
 #mv data/interim/train/cat.* data/processed/train/cat/
-mv data/interim/test1/* data/processed/test/
+#mv data/interim/test1/* data/processed/test/
 
 # # Clean up
 #rm data/images/tmp/sampleSubmission.csv
