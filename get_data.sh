@@ -13,7 +13,7 @@ kaggle competitions download dogs-vs-cats -p data/images/raw
 unzip data/images/raw/dogs-vs-cats.zip -d data/images/tmp
 
 # # Decompress the training data
-# unzip data/raw/train.zip -d data/interim
+unzip data/images/tmp/train.zip -d data/interim
 
 # # Make target directories for training data
 # mkdir data/processed/train
