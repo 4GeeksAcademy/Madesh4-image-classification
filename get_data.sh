@@ -15,16 +15,19 @@
 # # Decompress the training data
 #unzip data/images/tmp/train.zip -d data/interim
 
+# # Decompress the testing data
+#unzip data/images/tmp/test1.zip -d data/interim
+
 # # Make target directories for training data
-mkdir data/processed/train
-mkdir data/processed/test
-mkdir data/processed/train/dog
-mkdir data/processed/train/cat
+#mkdir data/processed/train
+#mkdir data/processed/test
+#mkdir data/processed/train/dog
+#mkdir data/processed/train/cat
 
 # # Move the training dogs and cats and the testing data
-mv data/interim/train/dog.* data/processed/train/dog/
-mv data/interim/train/cat.* data/processed/train/cat/
+#mv data/interim/train/dog.* data/processed/train/dog/
+#mv data/interim/train/cat.* data/processed/train/cat/
 mv data/interim/test1/* data/processed/test/
 
 # # Clean up
-rm data/images/tmp/sampleSubmission.csv
+#rm data/images/tmp/sampleSubmission.csv
